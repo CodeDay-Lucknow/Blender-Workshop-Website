@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
+
+:root{
+    --lime_green:#0eab0e;
+    --cyann:#4ed3d7;
+    --purple:#604498;
+    --blue:#8d8ae3;
+    --blue_but_lighter:rgba(141, 138, 227,0.5);
+    --primary:var(--blue);
+    --light:#EEEEEE;
+    --dark:#212121;
+    --darkpurple:#021F4B;
+    --green:#37836e;
+    --hamburgerColour:#FFF;
+    --mintGreen:#8cffb0;
+}
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0;
+}
+
+::selection{
+    color: var(--lime_green);
+    background-color: var(--cyann);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: cyan;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius:12px ;
+    background: var(--mintGreen);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
