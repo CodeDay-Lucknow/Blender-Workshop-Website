@@ -61,7 +61,7 @@ const clock = new THREE.Clock();
 
 let loader = new THREE.GLTFLoader();
 // Change this and your file shall be loaded
-loader.load("./src/Earth.gltf", function (gltf) {
+loader.load("./src/Planet.gltf", function (gltf) {
   earth = gltf.scene.children[0];
   scene.scale.set(1.2, 1.2, 1.2);
   scene.add(earth);
